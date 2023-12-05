@@ -52,3 +52,12 @@ Contributions make the open-source community an amazing place to learn, inspire,
 Reach out to me for queries
 
 Email: anu14official@gmail.com  
+
+
+![Alt text](/Images/Image1.png)
+![Alt text](/Images/Image2.png)
+![Alt text](/Images/Image3.png)
+
+<img src="/Images/Image1.png" width="300" height="200" />
+<img src="/Images/Image2.png" width="300" height="200" />
+<img src="/Images/Image3.png" width="300" height="200" />
