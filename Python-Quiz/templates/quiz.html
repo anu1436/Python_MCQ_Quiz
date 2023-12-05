@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Quiz Question</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 class="question-heading">Python Quiz Time!</h1>
+    <div id="question-container" class="question-container">
+    </div>
+    <div id="navigation-buttons" class="navigation-buttons">
+        <button id="prev-button" onclick="prevQuestion()" style="display:none;">Prev</button>
+        <button id="next-button" onclick="nextQuestion()">Next</button>
+        <button id="submit-button" onclick="showScore()" style="display:none;">Submit</button>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let questions = [];
+            let currentQuestion = 0;
+            let score = 0;
+
+            fetch('/api/questions')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                showQuestion(currentQuestion);
+            })
+            .catch(error => {
+                console.error("Error fetching questions: ", error);
+            });
+
+            function showQuestion(index) {
+            const question = questions[index];
+            const questionContainer = document.getElementById("question-container");
+            questionContainer.innerHTML = `<div class="question-card"><h2 class="question-text">${question.question}</h2></div>`;
+            question.options.forEach(option => {
+             questionContainer.innerHTML += `
+               <div class="option-container" onclick="selectOption('${option}', '${question.answer}')">
+                ${option}
+                </div>`;
+            });
+        }
+
+            window.selectOption = function(selected, correct) {
+                if (selected === correct) {
+                    score++;
+                    alert('Correct!');
+                } else {
+                    alert('Incorrect!');
+                }
+                if (currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    showQuestion(currentQuestion);
+                } else {
+                    showScore();
+                }
+            };
+
+            window.prevQuestion = function() {
+            if (currentQuestion > 0) {
+               currentQuestion--;
+               showQuestion(currentQuestion);
+            }
+            updateButtonVisibility();
+            };
+
+            window.nextQuestion = function() {
+                if (currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    showQuestion(currentQuestion);
+                }
+                updateButtonVisibility();
+            };
+
+            function updateButtonVisibility() {
+                document.getElementById('prev-button').style.display = currentQuestion > 0 ? 'inline' : 'none';
+                document.getElementById('next-button').style.display = currentQuestion < questions.length - 1 ? 'inline' : 'none';
+                document.getElementById('submit-button').style.display = currentQuestion === questions.length - 1 ? 'inline' : 'none';
+            }
+
+            window.showScore = function() {
+                alert(`Quiz completed! Your score is ${score} out of ${questions.length}.`);
+            };
+        });
+    </script>
+</body>
+</html>

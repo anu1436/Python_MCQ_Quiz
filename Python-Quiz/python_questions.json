@@ -1,0 +1,638 @@
+[
+    {
+        "question": "Which of the following is a mutable data type?",
+        "options": ["Tuple", "String", "List", "Integer"],
+        "answer": "List"
+    },
+    {
+        "question": "Which keyword is used to start a loop in Python?",
+        "options": ["loop", "for", "while", "iterate"],
+        "answer": "for"
+    },
+    {
+        "question": "How do you define a function in Python?",
+        "options": ["function myFunc():", "def myFunc():", "create myFunc():", "new myFunc():"],
+        "answer": "def myFunc():"
+    },
+    {
+        "question": "Which of the following checks if 'a' is equal to 'b' in Python?",
+        "options": ["a = b", "a == b", "a === b", "a equals b"],
+        "answer": "a == b"
+    },
+    {
+        "question": "Which method adds an element to the end of a list in Python?",
+        "options": ["append()", "extend()", "insert()", "add()"],
+        "answer": "append()"
+    },
+    {
+      "question": "What is the difference between an integer and a float data type in Python?",
+      "options": ["Integers are whole numbers, while floats are decimal numbers.", "Integers are used for counting, while floats are used for measurements.", "Integers are always positive, while floats can be negative.", "Integers are immutable, while floats are mutable."],
+      "answer": "Integers are whole numbers, while floats are decimal numbers."
+  },
+  {
+      "question": "How do you create a list in Python?",
+      "options": ["[]", "list()", "createList()", "newList()"],
+      "answer": "[]"
+  },
+  {
+      "question": "How do you access elements of a list in Python?",
+      "options": ["listName[index]", "listName.get(index)", "listName[element]", "None of the above"],
+      "answer": "listName[index]"
+  },
+  {
+      "question": "What is the difference between an if statement and an elif statement in Python?",
+      "options": ["An if statement checks a single condition, while an elif statement checks multiple conditions.", "An if statement is used for decision-making, while an elif statement is used for error handling.", "An if statement is always executed, while an elif statement is only executed if the previous if statement is False.", "None of the above"],
+      "answer": "An if statement checks a single condition, while an elif statement checks multiple conditions."
+  },
+  {
+      "question": "What is the purpose of a for loop in Python?",
+      "options": ["To repeat a block of code multiple times", "To check a condition multiple times", "To store data in a temporary variable", "None of the above"],
+      "answer": "To repeat a block of code multiple times"
+  },
+  {
+      "question": "What is the difference between a function definition and a function call in Python?",
+      "options": [
+          "A function definition defines the function's name, parameters, and body, while a function call executes the function's code.",
+          "A function definition is used for code reuse, while a function call is used for passing data to the function.",
+          "A function definition is the only way to create a function, while a function call is the only way to use a function.",
+          "None of the above"
+      ],
+      "answer": "A function definition defines the function's name, parameters, and body, while a function call executes the function's code."
+  },
+  {
+      "question": "What is the purpose of a return statement in Python?",
+      "options": [
+          "To send data back from a function to the calling code",
+          "To terminate a loop early",
+          "To check a condition",
+          "None of the above"
+      ],
+      "answer": "To send data back from a function to the calling code"
+  },
+  {
+      "question": "What is a module in Python?",
+      "options": [
+          "A file containing Python code",
+          "A collection of functions and variables",
+          "A way to import external code into a program",
+          "All of the above"
+      ],
+      "answer": "All of the above"
+  },
+  {
+      "question": "What is the purpose of the `input()` function in Python?",
+      "options": [
+          "To get user input from the console",
+          "To print a message to the console",
+          "To assign a value to a variable",
+          "To terminate a program"
+      ],
+      "answer": "To get user input from the console"
+  },
+  {
+      "question": "How do you create a set in Python?",
+      "options": ["{}", "set()", "createSet()", "newSet()"],
+      "answer": "set()"
+  },
+  {
+      "question": "How do you check if an element exists in a set in Python?",
+      "options": ["in", "exists()", "memberOf()", "contains()"],
+      "answer": "in"
+  },
+  {
+      "question": "What is the difference between a dictionary and a list in Python?",
+      "options": [
+          "Dictionaries store data using key-value pairs, while lists store data in a sequential order.",
+          "Dictionaries are mutable, while lists are immutable.",
+          "Dictionaries are used for storing and retrieving data, while lists are used for iterating over data.",
+          "All of the above"
+      ],
+      "answer": "All of the above"
+  },
+  {
+      "question": "How do you access values from a dictionary in Python?",
+      "options": ["dictionaryName[key]", "dictionaryName.get(key)", "dictionaryName[value]", "None of the above"],
+      "answer": "dictionaryName[key]"
+  },
+  {
+      "question": "What is the purpose of a while loop in Python?",
+      "options": [
+          "To repeat a block of code until a condition is met",
+          "To check a condition multiple times",
+          "To store data in a temporary variable",
+          "None of the above"
+      ],
+      "answer": "To repeat a block of code until a condition is met"
+  },
+  {
+      "question": "What is the difference between a break and a continue statement in Python?",
+      "options": [
+          "A break statement terminates the loop immediately, while a continue statement skips the current iteration and continues to the next one.",
+          "A break statement is used for exiting a loop early, while a continue statement is used for skipping an iteration of a loop.",
+          "A break statement is only used with while loops, while a continue statement can be used with both while and for loops.",
+          "None of the above"
+      ],
+      "answer": "A break statement is used for exiting a loop early, while a continue statement is used for skipping an iteration of a loop."
+  },
+  {
+      "question": "What is the purpose of a try-except block in Python?",
+      "options": [
+          "To handle errors gracefully",
+          "To check a condition",
+          "To repeat a block of code",
+          "None of the above"
+      ],
+      "answer": "To handle errors gracefully"
+  },
+  {
+      "question": "What is the difference between raising an exception and throwing an exception in Python?",
+      "options": [
+          "Raising an exception is explicit, while throwing an exception is implicit.",
+          "Raising an exception is used to signal an error, while throwing an exception is used to handle an error.",
+          "Raising an exception is only used with try-except blocks, while throwing an exception can be used outside of try-except blocks.",
+          "None of the above"
+      ],
+      "answer": "Raising an exception is explicit, while throwing an exception is implicit."
+  },
+  {
+      "question": "What is the purpose of the `import` keyword in Python?",
+      "options": [
+          "To import external code into a program",
+          "To define a function",
+          "To create a variable",
+          "To print a message to the console"
+      ],
+      "answer": "To import external code into a program"
+  },
+  {
+      "question": "What is the purpose of the `isinstance()` function in Python?",
+      "options": [
+          "To check if an object is of a particular type",
+          "To convert an object to another type",
+          "To delete an object",
+          "To create an object"
+      ],
+      "answer": "To check if an object is of a particular type"
+  },
+  {
+      "question": "What is the difference between a class and an object in Python?",
+      "options": [
+          "A class is a blueprint for creating objects, while an object is an instance of a class.",
+          "A class is used for defining attributes and methods, while an object is used for storing and manipulating data.",
+          "A class is immutable, while an object is mutable.",
+          "None of the above"
+      ],
+      "answer": "A class is a blueprint for creating objects, while an object is an instance of a class."
+  },
+  {
+      "question": "How do you create an object from a class in Python?",
+      "options": [
+          "className()",
+          "objectName = className()",
+          "className = objectName",
+          "None of the above"
+      ],
+      "answer": "objectName = className()"
+  },
+  {
+      "question": "What is the purpose of the `self` keyword in Python?",
+      "options": [
+          "To refer to the current instance of a class",
+          "To access class attributes and methods",
+          "To call a constructor",
+          "None of the above"
+      ],
+      "answer": "To refer to the current instance of a class"
+  },
+  {
+      "question": "What is the purpose of the `__init__()` method in Python?",
+      "options": [
+          "To initialize an object",
+          "To define attributes and methods for a class",
+          "To call a constructor",
+          "None of the above"
+      ],
+      "answer": "To initialize an object"
+  },
+  {
+      "question": "What is the difference between inheritance and composition in Python?",
+      "options": [
+          "Inheritance is used to create a new class that inherits attributes and methods from another class, while composition is used to create a new class that contains instances of other classes.",
+          "Inheritance is a static relationship, while composition is a dynamic relationship.",
+          "Inheritance is used for code reuse, while composition is used for creating more flexible and adaptable classes.",
+          "None of the above"
+      ],
+      "answer": "Inheritance is used to create a new class that inherits attributes and methods from another class, while composition is used to create a new class that contains instances of other classes."
+  },
+  {
+      "question": "What is the purpose of the `super()` function in Python?",
+      "options": [
+          "To access methods from a parent class",
+          "To call a constructor from a parent class",
+          "To modify attributes from a parent class",
+          "None of the above"
+      ],
+      "answer": "To access methods from a parent class"
+  },
+  {
+      "question": "What is the purpose of a decorator in Python?",
+      "options": [
+          "To add functionality to an existing function without modifying its original code",
+          "To create a new function",
+          "To define a class",
+          "None of the above"
+      ],
+      "answer": "To add functionality to an existing function without modifying its original code"
+  },
+  {
+      "question": "What is the purpose of a context manager in Python?",
+      "options": [
+          "To automatically manage resources, such as files or database connections",
+          "To handle errors gracefully",
+          "To repeat a block of code",
+          "None of the above"
+      ],
+      "answer": "To automatically manage resources, such as files or database connections"
+  },
+  {
+      "question": "What is the purpose of a regular expression in Python?",
+      "options": [
+          "To match patterns in strings",
+          "To validate data",
+          "To convert strings to other data types",
+          "None of the above"
+      ],
+      "answer": "To match patterns in strings"
+  },
+  {
+      "question": "What is the purpose of a generator in Python?",
+      "options": [
+          "To create a sequence of values without creating a list",
+          "To store data in a temporary variable",
+          "To access elements of a list",
+          "None of the above"
+      ],
+      "answer": "To create a sequence of values without creating a list"
+  },
+  {
+      "question": "What is the difference between a lambda expression and a normal function in Python?",
+      "options": [
+          "Lambda expressions are anonymous, while normal functions are not.",
+          "Lambda expressions are used for simple operations, while normal functions are used for more complex operations.",
+          "Lambda expressions can only have one expression, while normal functions can have multiple statements.",
+          "None of the above"
+      ],
+      "answer": "Lambda expressions are anonymous, while normal functions are not."
+  },
+  {
+      "question": "What is the purpose of a module package in Python?",
+      "options": [
+          "To organize related modules into a hierarchical structure",
+          "To import individual modules from a package",
+          "To create new modules",
+          "None of the above"
+      ],
+      "answer": "To organize related modules into a hierarchical structure"
+  },
+  {
+      "question": "What is the purpose of the `__name__` variable in Python?",
+      "options": [
+          "To determine if a module is being imported or executed directly",
+          "To access the name of a module",
+          "To define a function",
+          "None of the above"
+      ],
+      "answer": "To determine if a module is being imported or executed directly"
+  },
+  {
+      "question": "What is the purpose of the `global` keyword in Python?",
+      "options": [
+          "To modify variables outside of their current scope",
+          "To create new variables",
+          "To access variables from another module",
+          "None of the above"
+      ],
+      "answer": "To modify variables outside of their current scope"
+  },
+  {
+      "question": "What is the difference between importing a module and using a module package?",
+      "options": [
+          "Importing a module creates a reference to the module's global namespace, while using a module package creates a reference to the package's namespace.",
+          "Importing a module directly executes the module's code, while using a module package does not execute the package's code until an individual module from the package is imported.",
+          "Importing a module is used for accessing functions and variables defined in the module, while using a module package is used for organizing related modules into a hierarchical structure.",
+          "None of the above"
+      ],
+      "answer": "Importing a module creates a reference to the module's global namespace, while using a module package creates a reference to the package's namespace."
+  },
+  {
+      "question": "What is the purpose of a virtual environment in Python?",
+      "options": [
+          "To create an isolated environment for Python projects",
+          "To manage multiple versions of Python",
+          "To package Python applications for deployment",
+          "None of the above"
+      ],
+      "answer": "To create an isolated environment for Python projects"
+  },
+  {
+      "question": "What is the purpose of the `sys.path` variable in Python?",
+      "options": [
+          "To store the list of directories where Python searches for modules",
+          "To access the system environment variables",
+          "To modify the current working directory",
+          "None of the above"
+      ],
+      "answer": "To store the list of directories where Python searches for modules"
+  },
+  {
+      "question": "What is the difference between a list and a tuple in Python?",
+      "options": [
+          "Lists are mutable, while tuples are immutable.",
+          "Lists can contain any data type, while tuples can only contain primitive data types.",
+          "Lists are used for storing and manipulating sequences of data, while tuples are used for grouping related data.",
+          "None of the above"
+      ],
+      "answer": "Lists are mutable, while tuples are immutable."
+  },
+  {
+      "question": "What is the purpose of the `for` loop in Python?",
+      "options": [
+          "To repeat a block of code multiple times",
+          "To check a condition multiple times",
+          "To store data in a temporary variable",
+          "None of the above"
+      ],
+      "answer": "To repeat a block of code multiple times"
+  },
+  {
+      "question": "What is the purpose of the `if` statement in Python?",
+      "options": [
+          "To execute a block of code if a condition is true",
+          "To execute a block of code if a condition is false",
+          "To skip a block of code if a condition is true",
+          "None of the above"
+      ],
+      "answer": "To execute a block of code if a condition is true"
+  },
+  {
+      "question": "What is the purpose of the `while` loop in Python?",
+      "options": [
+          "To repeat a block of code until a condition is met",
+          "To check a condition multiple times",
+          "To store data in a temporary variable",
+          "None of the above"
+      ],
+      "answer": "To repeat a block of code until a condition is met"
+  },
+  {
+      "question": "What is the purpose of a function in Python?",
+      "options": ["To define a block of code that can be reused", "To store data in a temporary variable", "To check a condition multiple times", "None of the above"],
+      "answer": "To define a block of code that can be reused"
+  },
+  {
+      "question": "What is the difference between a local variable and a global variable in Python?",
+      "options": ["Local variables are accessible only within the function where they are defined, while global variables are accessible throughout the program", "Local variables are mutable, while global variables are immutable", "Local variables are used for storing temporary data, while global variables are used for storing persistent data", "None of the above"],
+      "answer": "Local variables are accessible only within the function where they are defined, while global variables are accessible throughout the program"
+  },
+  {
+      "question": "What is the purpose of a return statement in Python?",
+      "options": ["To send data back from a function to the calling code", "To terminate a loop early", "To check a condition", "None of the above"],
+      "answer": "To send data back from a function to the calling code"
+  },
+  {
+      "question": "What is the purpose of a module in Python?",
+      "options": ["To organize related code into a file", "To import external code into a program", "To create a collection of functions and variables", "All of the above"],
+      "answer": "All of the above"
+  },
+  {
+      "question": "What is the purpose of the `import` keyword in Python?",
+      "options": ["To import external code into a program", "To define a function", "To create a variable", "To print a message to the console"],
+      "answer": "To import external code into a program"
+  },
+  {
+      "question": "What is the purpose of the `input()` function in Python?",
+      "options": ["To get user input from the console", "To print a message to the console", "To check a condition", "To define a variable"],
+      "answer": "To get user input from the console"
+  },
+  {
+      "question": "How do you create a set in Python?",
+      "options": ["[]", "{}", "set()", "None of the above"],
+      "answer": "set()"
+  },
+  {
+      "question": "How do you check if an element exists in a set in Python?",
+      "options": ["in", "exists()", "memberOf()", "contains()"],
+      "answer": "in"
+  },
+  {
+      "question": "What is the difference between a dictionary and a list in Python?",
+      "options": ["Dictionaries store data using key-value pairs, while lists store data in a sequential order", "Dictionaries are mutable, while lists are immutable", "Dictionaries are used for storing and retrieving data, while lists are used for iterating over data", "All of the above"],
+      "answer": "All of the above"
+  },
+  {
+      "question": "How do you access values from a dictionary in Python?",
+      "options": ["dictionaryName[key]", "dictionaryName.get(key)", "dictionaryName[value]", "None of the above"],
+      "answer": "dictionaryName[key]"
+  },
+  {
+      "question": "What is the difference between a function definition and a function call in Python?",
+      "options": [
+          "A function definition defines the function's name, parameters, and body, while a function call executes the function's code.",
+          "A function definition is a blueprint for creating functions, while a function call is an instance of a function.",
+          "A function definition is used to store data, while a function call is used to manipulate data.",
+          "None of the above"
+      ],
+      "answer": "A function definition defines the function's name, parameters, and body, while a function call executes the function's code."
+  },
+  {
+      "question": "What is the purpose of a try-except block in Python?",
+      "options": [
+          "To handle errors gracefully",
+          "To skip errors and continue executing the program",
+          "To raise errors explicitly",
+          "None of the above"
+      ],
+      "answer": "To handle errors gracefully"
+  },
+  {
+      "question": "What is the difference between raising an exception and throwing an exception in Python?",
+      "options": [
+          "Raising an exception is explicit, while throwing an exception is implicit.",
+          "Raising an exception is used to signal an error, while throwing an exception is used to handle an error.",
+          "Raising an exception is used to stop the execution of a program, while throwing an exception is used to continue the execution of a program.",
+          "None of the above"
+      ],
+      "answer": "Raising an exception is explicit, while throwing an exception is implicit."
+  },
+  {
+      "question": "What is the purpose of the `isinstance()` function in Python?",
+      "options": [
+          "To check if an object is of a particular type",
+          "To create an object of a particular type",
+          "To convert an object to a particular type",
+          "None of the above"
+      ],
+      "answer": "To check if an object is of a particular type"
+  },
+  {
+      "question": "What is the difference between a class and an object in Python?",
+      "options": [
+          "A class is a blueprint for creating objects, while an object is an instance of a class.",
+          "A class is a collection of functions and variables, while an object is a single function or variable.",
+          "A class is a static entity, while an object is a dynamic entity.",
+          "None of the above"
+      ],
+      "answer": "A class is a blueprint for creating objects, while an object is an instance of a class."
+  },
+  {
+      "question": "How do you create an object from a class in Python?",
+      "options": [
+          "className()",
+          "objectName = className()",
+          "new className()",
+          "None of the above"
+      ],
+      "answer": "objectName = className()"
+  },
+  {
+      "question": "What is the purpose of the `self` keyword in Python?",
+      "options": [
+          "To refer to the current instance of a class",
+          "To access class attributes and methods",
+          "To call a constructor",
+          "None of the above"
+      ],
+      "answer": "To refer to the current instance of a class"
+  },
+  {
+      "question": "What is the purpose of the `__init__()` method in Python?",
+      "options": [
+          "To initialize an object",
+          "To define attributes and methods for a class",
+          "To call a constructor",
+          "None of the above"
+      ],
+      "answer": "To initialize an object"
+  },
+  {
+      "question": "What is the difference between inheritance and composition in Python?",
+      "options": [
+          "Inheritance is used to create a new class that inherits attributes and methods from another class, while composition is used to create a new class that contains instances of other classes.",
+          "Inheritance is a static relationship, while composition is a dynamic relationship.",
+          "Inheritance is used for code reuse, while composition is used for creating more flexible and adaptable classes.",
+          "None of the above"
+      ],
+      "answer": "All of the above"
+  },
+  {
+      "question": "What is the purpose of the `super()` function in Python?",
+      "options": [
+          "To access methods from a parent class",
+          "To call a constructor from a parent class",
+          "To modify attributes from a parent class",
+          "None of the above"
+      ],
+      "answer": "To access methods from a parent class"
+  },
+  {
+      "question": "What is the purpose of a decorator in Python?",
+      "options": [
+          "To add functionality to an existing function without modifying its original code",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To add functionality to an existing function without modifying its original code"
+  },
+  {
+      "question": "What is the purpose of a context manager in Python?",
+      "options": [
+          "To automatically manage resources, such as files or database connections",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To automatically manage resources, such as files or database connections"
+  },
+  {
+      "question": "What is the purpose of a regular expression in Python?",
+      "options": [
+          "To match patterns in strings",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To match patterns in strings"
+  },
+  {
+      "question": "What is the purpose of a generator in Python?",
+      "options": [
+          "To create a sequence of values without creating a list",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To create a sequence of values without creating a list"
+  },
+  {
+      "question": "What is the difference between a lambda expression and a normal function in Python?",
+      "options": [
+          "Lambda expressions are anonymous, while normal functions are not.",
+          "Lambda expressions are mutable, while normal functions are immutable.",
+          "Lambda expressions are used for storing data, while normal functions are used for executing code.",
+          "None of the above"
+      ],
+      "answer": "Lambda expressions are anonymous, while normal functions are not."
+  },
+  {
+      "question": "What is the purpose of a module package in Python?",
+      "options": [
+          "To organize related modules into a hierarchical structure",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To organize related modules into a hierarchical structure"
+  },
+  {
+      "question": "What is the purpose of the `__name__` variable in Python?",
+      "options": [
+          "To determine if a module is being imported or executed directly",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To determine if a module is being imported or executed directly"
+  },
+  {
+      "question": "What is the purpose of the `global` keyword in Python?",
+      "options": [
+          "To modify variables outside of their current scope",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To modify variables outside of their current scope"
+  },
+  {
+      "question": "What is the difference between importing a module and using a module package?",
+      "options": [
+          "Importing a module creates a reference to the module's global namespace, while using a module package creates a reference to the package's namespace.",
+          "Importing a module stores the module's code in memory, while using a module package creates a link to the module's file.",
+          "Importing a module is used for code reuse, while using a module package is used for organizing code.",
+          "None of the above"
+      ],
+      "answer": "Importing a module creates a reference to the module's global namespace, while using a module package creates a reference to the package's namespace."
+  },
+  {
+      "question": "What is the purpose of a virtual environment in Python?",
+      "options": [
+          "To create an isolated environment for Python projects",
+          "To store data in a temporary variable",
+          "To check a condition multiple times",
+          "None of the above"
+      ],
+      "answer": "To create an isolated environment for Python projects"
+  }
+
+]
