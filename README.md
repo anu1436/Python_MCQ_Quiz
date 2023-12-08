@@ -35,10 +35,10 @@ git clone https://github.com/anu1436/python-quiz-app.git
 2. Install Required Packages
  - Python and Flask
 
-**Usage**
+**Usage**: 
 After launching the app, visit http://127.0.0.1:5000/ in your web browser to start the quiz.
 
-**Contributing**
+**Contributing**: 
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are highly appreciated.
 
 **Fork the Project**
